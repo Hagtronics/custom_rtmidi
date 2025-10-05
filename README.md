@@ -9,20 +9,22 @@ https://github.com/thestk/rtmidi
   
 # Building  
   Start at the Raspbery Pi Home directory,  
-  '/Home/pi  
+  `/Home/pi`  
       
   Clone the code,  
-  'git clone https://github.com/Hagtronics/custom_rtmidi  
+  `git clone https://github.com/Hagtronics/custom_rtmidi`  
      
   CD to the directory,  
-  'CD rtmidi  
+  `CD rtmidi`  
     
   Set the permissions on the install script,  
-  'chmod +x install_rtmidi.sh   
+  `chmod +x install_rtmidi.sh`   
      
-  Run the '''install_rtmidi.sh''' script.    
+  Run the install script,  
+  `install_rtmidi.sh`  
+    
   RtMidi will be built as a shared library and installed properly on the pi.  
-  
+    
 # Testing    
   The shared_lib_test directory contains a shared library test project.  
     
